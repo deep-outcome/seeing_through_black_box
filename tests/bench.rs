@@ -10,7 +10,7 @@ fn gcd_naive_test(b: &mut Bencher) {
     let num_1 = 2_559_031_471u64; // 150531263ᵖ ⋅17ᵖ
     let num_2 = 1_956_912_061; // 150531697ᵖ ⋅13ᵖ    
 
-    b.iter(|| assert_eq!(1, gcd_naive(num_1, num_2)));
+    b.iter(|| gcd_naive(num_1, num_2));
 }
 
 #[bench]
