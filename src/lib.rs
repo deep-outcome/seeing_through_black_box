@@ -74,3 +74,5 @@ pub fn gcd_naive_2(mut l_hand: u64, mut r_hand: u64) -> u64 {
         gcd_naive_2(l_hand, r_hand)
     };
 }
+
+// cargo fmt && cargo bench --test bench --profile bench
