@@ -11,7 +11,7 @@ running 2 tests
 test gcd_naive_2_test ... bench:          47.88 ns/iter (+/- 2.86)
 test gcd_naive_test   ... bench:          56.33 ns/iter (+/- 1.72)
 ```
-Bench: ./Cargo.toml
+Bench: [Cargo.toml](./Cargo.toml)
 
 ```
 cargo bench --test bench --profile bench
